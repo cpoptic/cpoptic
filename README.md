@@ -56,3 +56,7 @@ By doing so, we accomplish three things:
 The upcoming Nvidia 3000-series GPUs have me pretty excited to train deep learning models more quickly and efficiently.  Especially the massive 24 GB of VRAM on the RTX 3090, which will make training big Transformer models actually fasible for modern NLP tasks.
 
 Because there's so much marketing hype surrounding the Ampere release and because, as a principle, I believe in trusting people's opinion to be more informed than mine if they are more experienced in an area (as any good Bayesian would), I read through a [blog post](https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/) by Tim Dettmers on choosing a GPU for your next deep learning PC.  Tim has an excellent analysis on the topic, which I highly recommend.
+
+A great webinar today by Thomas Ott, Customer Solutions Engineer/Business Data Scientist at H2O.ai called "Real AI Transformation: Getting Models Into Production"
+Some key takeaways:
+*"What makes companies successful is getting models into production"*
