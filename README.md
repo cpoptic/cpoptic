@@ -68,9 +68,17 @@ I'm looking forward to reading his book, "Machine Learning Design Patterns", to 
 
 Some key points:
 - An ML workflow has all the dev challenges of ensuring things are repeatable, but also the added challenges during production of ensuring you can continuously retrain and serve a model.
-- A workflow is an executable DAG of ML steps
-- Each of those steps is a container (data pre-processing and validation container, feature enginering container, train XGB model container, train LGB model container, evaluate model container, etc)
-- Use dependency tracking:  the output of each step in the pipeline is an artifact.
+- How to resolve these challenges?  Consider your workflow as a pipeline.  This pipeline is an executable DAG of ML steps.
+- Each of those steps is a container 
+-- data pre-processing and validation container, 
+-- feature enginering container, 
+-- train XGBoost model container, 
+-- train LGB model container, 
+-- evaluate model container
+-- deploy model container
+-- etc
+- These pipeline steps (containers) are not independent, but rather are _connected_.  Like a network graph.  Indeed, a directed graph.  A directed graph where no subgraphs are cyclical such that you get caught in an endless loop  (i.e. a Directed Acyclic Graph).  
+-- Use dependency tracking:  the output of each step in the pipeline is an artifact.
 - The output of one step is an artifact, which becomes the input of the subsequent step.
 
 - Google TFX
