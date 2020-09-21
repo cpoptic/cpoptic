@@ -23,7 +23,7 @@ Also, [Follow him on Twitter](https://twitter.com/rasbt)
 
 ## TODAY I LEARNED / THINGS I'M READING
 
-2020-09-14
+_2020-09-14_
 
 One thing that we ML engineers must prioritize is writing "production-ready code".  That term has been thrown around a lot, and for good reason; code that integrates well with an app and can be used by a) other devs on your team or b) end-users  is the only type of code that ultimately brings "value" to an organization.
 
@@ -51,7 +51,7 @@ By doing so, we accomplish three things:
 
 
 
-2020-09-15
+_2020-09-15_
 
 The upcoming Nvidia 3000-series GPUs have me pretty excited to train deep learning models more quickly and efficiently.  Especially the massive 24 GB of VRAM on the RTX 3090, which will make training big Transformer models actually fasible for modern NLP tasks.
 
@@ -61,7 +61,8 @@ A great webinar today by Thomas Ott, Customer Solutions Engineer/Business Data S
 Some key takeaways:
 *"What makes companies successful is getting models into production"*
 
-2020-09-21
+_2020-09-21_
+
 Watched an excellent talk from AIDevFest20 on [Machine Learning Design Patterns for MLOps](https://www.youtube.com/watch?v=_Ni6JWdeCew&ab_channel=AICamp) by Valliappa Lakshmanan.  This is such an important topic in the life of a machine learning engineer, and addresses a major pain-point in our daily work.
 I'm looking forward to reading his book, "Machine Learning Design Patterns", to be released in November 2020.
 
