@@ -60,3 +60,16 @@ Because there's so much marketing hype surrounding the Ampere release and becaus
 A great webinar today by Thomas Ott, Customer Solutions Engineer/Business Data Scientist at H2O.ai called "Real AI Transformation: Getting Models Into Production"
 Some key takeaways:
 *"What makes companies successful is getting models into production"*
+
+2020-09-21
+Watched an excellent talk from AIDevFest20 on [Machine Learning Design Patterns for MLOps](https://www.youtube.com/watch?v=_Ni6JWdeCew&ab_channel=AICamp) by Valliappa Lakshmanan.  This is such an important topic in the life of a machine learning engineer, and addresses a major pain-point in our daily work.
+I'm looking forward to reading his book, "Machine Learning Design Patterns", to be released in November 2020.
+
+Some key points:
+- A workflow is an executable DAG of ML steps
+- Each of those steps is a container (data pre-processing and validation container, feature enginering container, train XGB model container, train LGB model container, evaluate model container, etc)
+- Use dependency tracking:  the output of each step in the pipeline is an artifact.
+- The output of one step is an artifact, which becomes the input of the subsequent step.
+
+- Google TFX
+Obviously, being employees of Google, they're biased towards Google products, but TFX is a great tool for this.
