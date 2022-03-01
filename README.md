@@ -27,9 +27,19 @@ Also, [Follow him on Twitter](https://twitter.com/rasbt)
 
 One thing that we ML engineers must prioritize is writing "production-ready code".  That term has been thrown around a lot, and for good reason; code that integrates well with an app and can be used by a) other devs on your team or b) end-users  is the only type of code that ultimately brings "value" to an organization.
 
-How easy it is to crank out an exploratory data anslysis of code that works, but whose barrier to incorporation into a larger codebase is rather high.
+BTW, an excellent book on this topic is Ben G Weber's "Data Science in Production: Building Scalable Model Pipelines with Python".  Highly recommend.  In Ben's words:
+> The general theme of the book is to take simple machine learning models and to scale them up in different configurations across multiple cloud environments
 
-One phenomena any machine learning engineer has experienced is good ol Tech Debt.  If you haven't heard of tech debt, it's fairly self-explanatory
+Ben continues:
+> Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization. 
+> By learning how to build and deploy scalable model pipelines, data scientists can own more of the model production process and rapidly deliver data products.
+
+
+Another important concept is API-first design.  This is related to [Writing Software from the Outside In](https://medium.com/@jejo.math/writing-software-from-the-outside-in-e5359f60fa30), explained in another excellent blog post by Jesse Johnson.
+
+It's easy to crank out an quick data anslysis or moddel of code that works, but has no way of "talking" with the rest of your system/app.
+
+One phenomena any machine learning engineer has experienced is "Tech Debt".  If you haven't heard of tech debt, it's fairly self-explanatory.
 
 
 What contributes to complexity?
@@ -53,7 +63,7 @@ By doing so, we accomplish three things:
 
 ### 2020-09-15
 
-The upcoming Nvidia 3000-series GPUs have me pretty excited to train deep learning models more quickly and efficiently.  Especially the massive 24 GB of VRAM on the RTX 3090, which will make training big Transformer models actually fasible for modern NLP tasks.
+The upcoming Nvidia 3000-series GPUs have me pretty excited to train deep learning models more quickly and efficiently.  Especially the massive 24 GB of VRAM on the RTX 3090, which will make training big Transformer models actually feasible for modern NLP tasks.
 
 Because there's so much marketing hype surrounding the Ampere release and because, as a principle, I believe in trusting people's opinion to be more informed than mine if they are more experienced in an area (as any good Bayesian would), I read through a [blog post](https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/) by Tim Dettmers on choosing a GPU for your next deep learning PC.  Tim has an excellent analysis on the topic, which I highly recommend.
 
